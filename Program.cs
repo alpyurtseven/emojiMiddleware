@@ -13,6 +13,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseEmojiMiddleware();
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
